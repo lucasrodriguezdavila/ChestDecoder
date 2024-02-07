@@ -1,0 +1,13 @@
+name: ChestDecoder
+version: '${project.version}'
+main: org.lucasrodriguezdavila.chestdecoder.ChestDecoder
+api-version: '1.20'
+commands:
+  decode:
+    description: Decode a chest
+    usage: /<command>
+    permission: chestdecoder.decode
+  lock:
+    description: Locks a chest
+    usage: /<command>
+    permission: chestdecoder.lock
